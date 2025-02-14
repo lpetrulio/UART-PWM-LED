@@ -13,10 +13,10 @@ This project allows an **FPGA** to control LED brightness using **UART commands*
 ---
 
 ## Features
-✅ **Receive UART data from PC (115200 baud)**  
-✅ **Parse ASCII commands (`b50`, `b90`, `r`) to adjust brightness**  
-✅ **Generate PWM signal based on received duty cycle**  
-✅ **Python script to send UART commands (`pyserial`)**  
+**Receive UART data from PC (115200 baud)**  
+**Parse ASCII commands (`b50`, `b90`, `r`) to adjust brightness**  
+**Generate PWM signal based on received duty cycle**  
+**Python script to send UART commands (`pyserial`)**  
 
 ---
 
@@ -33,7 +33,7 @@ This project allows an **FPGA** to control LED brightness using **UART commands*
 
 ---
 
-## 🛠 How to Run (Once Debugged)
+## How to Run (Once Debugged)
 1. **Flash the FPGA with `top_uart_pwm_system.v`**.
 2. **Run Python script to send commands:**
 3. 
