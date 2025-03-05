@@ -1,5 +1,5 @@
 module uart_receiver (
-    input wire clk,         // 115200 baud clock
+    input wire clk,         // 9600 baud clock
     input wire reset,       // Reset
     input wire rx,          // UART RX line (Serial Input)
     output reg [7:0] data,  // Received byte
