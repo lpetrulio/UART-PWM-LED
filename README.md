@@ -21,6 +21,9 @@ This project allows an **FPGA** to control LED duty cycle using **UART commands*
 - **`pwm_generator.v`** → Generates PWM signal based on `duty_cycle`.
 - **`top_uart_pwm_system.v`** → Integrates all modules.
 
+### 🔹 Notes
+- ** I used an Arty A7 100T and vivado, so I chose to use a clock wizard (IP) found in vivado to generate the 25MHz system clock. The instantiation of this module can be found in the top module, but feel free to adjust/remove if you're using a clock wizard or not.
+
 ### 🔹 Software (Python)
 - **`uart_send.py`** → Sends UART commands (`b50`, `b90`, `r`) to FPGA.
 
